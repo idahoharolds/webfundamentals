@@ -2,7 +2,7 @@
     font-size: 1.5em;
     line-height: 1.5em
 }
-#active {
+nav a {
     background-color: white;
     color: steelblue;
 }
