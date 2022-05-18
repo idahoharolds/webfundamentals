@@ -1,0 +1,25 @@
+.top {
+    width: 100%;
+    height: 80%;
+}
+footer {
+    display: inline-block;
+    background-color: gray;
+    margin: 100px;
+}
+
+.desk {
+    border-radius: 50%;
+    width: 20%;
+    border: 10px solid gray;
+}
+.ball {
+    border-radius: 50%;
+    width: 20%;
+    border: 10px solid gray;
+}
+.person {
+    border-radius: 50%;
+    width: 20%;
+    border: 10px solid gray;
+}
