@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=EB+Garamond&family=Raleway:ital,wght@1,200&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+.home-title{
+    font-family: 'EB Garamond';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 #hero-msg h1{
@@ -8,12 +16,16 @@
 }
 #hero-msg h4{
     text-align: center;
+    font-family: 'EB Garamond';
 }
 .button-box{
     text-align: center;
 }
 main section {
     text-align: center;
+}
+main section img {
+    box-sizing: border-box;
 }
 #background {
     background-color: gray;
@@ -22,6 +34,9 @@ main section {
 body {
     background-color: white;
     color: black;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: gray;
@@ -30,42 +45,98 @@ nav a {
     color: black;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
-    color: blue;
+    color: white;
 }
-.book, .join {
-    background-color:white;
+.book,.join {
+    background-color:#d9c2a3;
+    color: black;
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
-    color: blue;
+    color: white;
 }
 #background {
-    background-color: white;
+    background-color: #d9c2a3;
 }
 .msg {
-    color: black;
+    background-color: gray;
+    color: white;
+    font-family: 'EB Garamond';
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 150px;
 }
-footer a{
-    color: black;
+
+.msg p {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+footer a {
+    color: #d9c2a3;
     text-align: center;
     text-decoration: none;
+}
+h3 {
+    color: #d9c2a3;
 }
 footer {
     background-color: gray;
+    font-family: 'EB Garamond';
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo {
     width: 80px;
 }
-.icon {
+#logo_link {
+    padding-top: 5px;
+}
+.icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
 }
 
 footer h3 a:hover {
+    color: white;
     text-decoration: underline;
+}
+
+h2 {
+    font-family: 'EB Garamond';
+    margin: 0;
+}
+
+nav {
+    font-family: 'EB Garamond';
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;;
+}
+div #hero {
+    height: 1300px;
+    border-bottom: 1px solid #d9c2a3; 
+}
+.mountains {
+    margin-top: 130px;
 }
