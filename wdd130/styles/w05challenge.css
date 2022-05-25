@@ -1,19 +1,27 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 footer {
     background-color: gray;
+    margin-top: -20px;
 }
-
+.title-image{
+    width: 100%;
+}
 .desk-img{  
     border-radius: 50%;
-    margin: 100px;
-    width: 10%
+    margin: 100px 100px;
+    width: 10%;
+
 }
 .graphic-img{
     border-radius: 50%;
     margin: 100px;
-    width: 10%
+    width: 10%;
 }
-.person-img{
+footer .person-img{
     border-radius: 50%;
     margin: 100px;
-    width: 10%
+    width: 10%;
 }
