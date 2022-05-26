@@ -148,8 +148,6 @@
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
-  display: grid;
-  grid-template-columns: 1fr;
 }
 .red6 {
   width: 500px; 
@@ -164,9 +162,10 @@
   float:left;
 } 
 .yellow6 {
-  width: 400px; 
+  width: 200px; 
   height: 500px; 
   background-color: gold;
+  margin-right: 700px;
   margin-top: 0px;
   float: right;
 }
