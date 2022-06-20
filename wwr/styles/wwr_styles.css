@@ -28,7 +28,7 @@ nav {
 nav a {
     font-size: 30px;
     color: black;
-    text-align: ccenter;
+    text-align: center;
     text-decoration: none;
     padding: 35px;
 }
@@ -61,7 +61,6 @@ nav a:hover {
     grid-row: 1/2;
     margin-top: 100px;
     text-align:center;
-    width:1
 }
 
 #hero-box {
@@ -257,23 +256,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*MEDIA QUERY*/
 
 
@@ -405,7 +387,7 @@ h2 {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 500px;
-    text-align:center;3
+    text-align:center;
 }
 
 #river-box {
