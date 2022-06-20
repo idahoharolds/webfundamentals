@@ -1,0 +1,101 @@
+/*Content*/
+#river-content {
+    max-width: 2500px;
+    margin: 0 auto;
+}
+
+
+/*RIVERS*/
+.river-title {
+    color: black;
+    text-align: center;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+
+.river-row {
+    max-width: 2500px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.river-row p,.river-row h2{
+    font-size: 60px;
+}
+
+.river-row img {
+    height: 650px;
+    width: 650px;
+}
+
+#river {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+    width: 100%;
+    height: 1300px; 
+}
+
+#river-msg {
+    letter-spacing: 8px;
+    color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 500px;
+    text-align:center;
+}
+
+.river-maintitle {
+    font-size: 0px;
+}
+
+#river-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#river-img {
+    width: 100%;
+    height: 80%;
+}
+
+.first_photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.second-photo  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.more-rivers {
+    background-color:#d9c2a3;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.more-act{
+    background-color:#d9c2a3;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.third-photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
