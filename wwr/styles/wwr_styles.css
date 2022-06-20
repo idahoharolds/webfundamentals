@@ -9,7 +9,7 @@ body {
 }
 /*Heading content*/
 #content {
-    max-width: 1600px;
+    max-width: 2600px;
     margin: 0 auto;
 }
 
@@ -175,7 +175,7 @@ footer {
 
 
 .river-row {
-    max-width: 2500px;
+    max-width: 2600px;
     margin: 0 auto;
     align-items: center;
 }
