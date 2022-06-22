@@ -1,64 +1,341 @@
-.main-para {
-    font-size: 1.5em;
-    line-height: 1.5em
-}
-nav a {
-    background-color: white;
-    color: rgb(0, 0, 0);
-}
-
-img {
-    width: 80%
-}
-
-p {
-    width: 80%
-}
-
-a {
-    font-size: 1.5em;
-    color: #ffffff;
-    padding: 25px;
-}
-
-h1 {
-    text-align: center;
-    margin: 50px 0;
- }
-
- nav {
-    text-align: center;
-    background-color: steelblue;
-    padding: 25px;
- }
-
-img {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-    border: 4px  steelblue;
-}
-
-main p {
-    width: 80%;
-    margin: 10px auto;
-    text-align: center;
-}
-
-footer p {
-    background-color: steelblue;
-    color: white;
-    font-size: 20px;
-    margin: 20px auto;
-    text-align: center;
-    padding: 25px;
-}
-
-a:hover {
-    background-color: black;
-    color: white;
-}
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
 body {
+    font-family: Georgia, 'TimesNew Roman', serif;
+    font-size: 22px;
     margin: 0;
+    padding: 0;
+    background-color:gray
+}
+
+/*Heading content*/
+#store-content {
+    max-width: 2600px;
+    margin: 0 auto;
+}
+
+#store-box img {
+    height: 80%;
+    width: 100%;
+}
+header {
+    background-color: #2A6F97;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: 150px auto; 
+  }
+nav {
+    font-family: 'EB Garamond';
+    display: flex; 
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px;
+}
+
+nav a {
+    padding: 35px;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+nav a:hover {
+    color: white;
+}
+
+.logo {
+    width:170px;
+    margin-left: 150px;
+    border-radius: 50%;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+/*Heading content*/
+
+
+
+
+/*Main content*/
+
+#store {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: -200px;
+    height: 1500px; 
+}
+
+#store-tagline {
+    grid-column: 3/3;
+    grid-row: 2/2;
+    margin-bottom: 700px;
+    text-align:center;
+}
+
+#store-tagline h1 {
+    color: white;
+    margin-right: 50px ;
+    font-size: 80px;
+}
+#store-tagline h2 {
+    color: white;
+    margin-right: 1000px ;
+    font-size: 60px;
+}
+#store-tagline p {
+    color: white;
+    margin-right: 50px ;
+    font-size: 50px;
+}
+.button-box {
+    margin-right: -700px;
+    font-size: 40px;
+}
+
+#store-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#store-about {
+    letter-spacing: 2px;
+    text-align: center;
+    background-color:cadetblue;
+    color: black;
+    font-size: 80px;
+    line-height: 1em;
+    padding: 1px;
+    margin-top: 50px;
+    box-shadow: 5px 10px 10px black;
+}
+
+#store-about p {
+    font-size: 50px;
+    color: black;
+}
+
+/*MAIN CONTENT END*/
+
+
+
+
+
+
+/*PRICING CONTENT*/
+
+
+main section {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+}    
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.box h1 {
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color:cadetblue;
+    color: black;
+    padding: 200px;
+    margin: 100px;
+    border-radius: 50px;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    box-shadow: 5px 10px 10px black;
+}
+
+button {
+    background-color: white;
+    border-radius:20px;
+    padding: 1em;
+    color:#2A6F97;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+/*PRICING CONTENT END*/
+
+
+
+
+
+/*CONTACT US*/
+
+form {
+    /* Center the form on the page */
+    background-color: cadetblue;
+    box-shadow: 5px 10px 10px black;
+    font-size: 40px;
+    margin: 0 auto;
+    width: 800px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 2em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 500px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 200px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+  }
+  
+
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;       
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+/*CONTACT US END*/
+
+
+
+
+/*FOOTER CONTENT*/
+footer {
+    font-size: 30px;
+    background-color: #2A6F97;
+    font-family: 'EB Garamond';
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+footer h3 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }

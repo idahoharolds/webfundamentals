@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Store | Contact Us</title>
-    <link rel="stylesheet" href="" >
+    <link rel="stylesheet" href="/styles/wdd_styles.css" >
 </head>
 <body>
     <div id="store-content">
@@ -19,30 +19,36 @@
             <a href="contactus.html">Contact Us</a>
         </nav>
     </header>
-    <main>
-        <img src="images/Contact Us.png" alt="Contact Us">
-        <div id="feedback"></div>
-        <form action="/my-handling-form-page" method="post">
-            <ul>
-             <li>
-               <label for="name">Name:</label>
-               <input type="text" id="name" name="user_name">
-             </li>
-             <li>
-               <label for="mail">E-mail:</label>
-               <input type="email" id="mail" name="user_email">
-             </li>
-             <li>
-               <label for="msg">Message:</label>
-               <textarea id="msg" name="user_message"></textarea>
-             </li>
-             <li class="button">
-                <button type="submit">Send your message</button>
-              </li>
-            </ul>
-           </form>
+
+    <div id="store">
+        <div id="store-box">
+            <img src="images/Contact Us.png" alt="Contact Us">
         </div>
-    </main>
+    </div>
+    
+    <div id="feedback"></div>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+         <li>
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="user_name">
+         </li>
+         <li>
+           <label for="mail">E-mail:</label>
+           <input type="email" id="mail" name="user_email">
+         </li>
+         <li>
+           <label for="msg">Message:</label>
+           <textarea id="msg" name="user_message"></textarea>
+         </li>
+         <li class="button">
+            <button type="submit">Send your message</button>
+          </li>
+        </ul>
+       </form>   
+
+
+
     <footer>
         <h3>Fashion Store &copy; 2022 - Harold Sagario</h3>
         <h3><a href="site-plan.html">Site Plan</a></h3>
@@ -60,6 +66,7 @@
         </div>
     </footer>
     </div>
+
     <script>
         // get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
