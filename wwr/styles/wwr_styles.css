@@ -28,7 +28,6 @@ nav {
 nav a {
     font-size: 30px;
     color: black;
-    text-align: center;
     text-decoration: none;
     padding: 35px;
 }
@@ -155,7 +154,6 @@ footer {
     opacity: .6;
     transform: scale(1.1);
 }
-
 
 #river-content {
     max-width: 1600px;
